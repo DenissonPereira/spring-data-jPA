@@ -21,7 +21,7 @@ Nesta implementação **Java**, foi elaborado um projeto utilizando **Spring Dat
 Dê uma espiada no nosso projeto em funcionamento e esclareça todas as suas dúvidas sobre como executá-lo!
 
 ## 🏂 Aplicação em ação
-![Web 1](./public/spring_security_jwt.gif) 
+![Web 1](./public/spring.gif) 
 
 ## 📺 Editor de código
 
