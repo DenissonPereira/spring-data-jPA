@@ -20,12 +20,13 @@ public class Carro {
     private String motor;
     private String transmissao;
     private String descricao;
+    private String imagem;
 
     public Carro() {
         super();
     }
 
-    public Carro(Long id, String marca, String modelo, int ano, String cor, double preco, int kilometragem, String tipo, String motor, String transmissao, String descricao){
+    public Carro(Long id, String marca, String modelo, int ano, String cor, double preco, int kilometragem, String tipo, String motor, String transmissao, String descricao, String imagem){
         super();
         this.id = id;
         this.marca = marca;
@@ -38,9 +39,10 @@ public class Carro {
         this.motor = motor;
         this.transmissao = transmissao;
         this.descricao = descricao;
+        this.imagem = imagem;
     }
 
-    public Carro(String marca, String modelo, int ano, String cor, double preco, int kilometragem, String tipo, String motor, String transmissao, String descricao){
+    public Carro(String marca, String modelo, int ano, String cor, double preco, int kilometragem, String tipo, String motor, String transmissao, String descricao, String imagem){
         super();
         this.marca = marca;
         this.modelo = modelo;
@@ -52,6 +54,7 @@ public class Carro {
         this.motor = motor;
         this.transmissao = transmissao;
         this.descricao = descricao;
+        this.imagem = imagem;
     }
 
 
@@ -121,5 +124,13 @@ public class Carro {
     }
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public String getImagem() {
+        return imagem;
+    }
+
+    public void setImagem(String imagem) {
+        this.imagem = imagem;
     }
 }
